@@ -1,0 +1,77 @@
+.logoblinking{
+	-webkit-animation:blink 0.5s ease-in-out infinite alternate;
+    -moz-animation:blink 0.5s ease-in-out infinite alternate;
+    animation:blink 0.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+/*
+ * Iropke Batang (Korean)
+ * http://font.iropke.com/batang/
+ */
+@font-face {
+  font-family: 'Iropke Batang';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot);
+  src: url(https://cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot?#iefix) format('embedded-opentype'),
+       url(https://cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.woff) format('woff'),
+       url(https://cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.ttf) format('truetype');
+}
+.bg{
+	background: url('https://i.imgur.com/qesDNX5.png');
+	position:relative;
+	z-index:2;
+	margin-top:5px;
+	padding-top:5px;
+	left:20px;
+	width:60%;
+}
+.name{
+	width:150px;
+	font-size:1.8em;
+	font-weight:900;
+	padding-left:50px;
+	padding-bottom:10px;
+	padding-top:10px;
+	background-color:#1d408c;
+	border-style:ridge;
+	border-color:#fff;
+	border-width:thick;
+	margin-top:5px;
+	margin-left:5px;
+	position:relative;
+	top:-20px;
+	left:-15px;
+}
+.maintx{
+	margin-left:70px;
+	width:90%;
+	height:100px;
+	font-size:1.4em;
+	font-weight:300;
+	position:relative;
+	z-index:2;
+}
+.mainsd{
+	text-shadow: 2px 2px 0px #000;
+}
+.ending{
+	width: 20px;
+	font-size: 1.8em;
+	font-weight: 900;
+	position: relative;
+	bottom: 40px;
+	float: right;
+	right: 20px;
+}
